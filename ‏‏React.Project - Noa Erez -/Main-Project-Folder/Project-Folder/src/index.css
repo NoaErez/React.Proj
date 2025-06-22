@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* גובה מינימום 100% מהחלון */
+}
+
+.main-content {
+  flex: 1; /* יתפוס את כל החלל הזמין */
+  overflow-y: auto; /* יאפשר גלילה */
+}
+
