@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Noa Erez - react + vite + flowbite project
 
-Currently, two official plugins are available:
+Bizzy App is a modern web application that allows businesses to create and manage digital business cards. It includes user authentication, interactive cards with contact info, and user-friendly features such as likes and favorites.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features User authentication – Sign up and log in securely with a password.
 
-## Expanding the ESLint configuration
+Business card creation – Logged-in users can create custom business cards including:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Business name
 
-- Configure the top-level `parserOptions` property like this:
+Address with map integration
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+Phone number
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Contact methods (e.g., email, website)
+
+Like & Save – Logged-in users can like cards and save them to their favorites.
+
+Responsive design – Fully responsive UI for mobile and desktop users.
+
+Technologies:
+
+Vite – Fast development environment
+
+React – Modern frontend framework
+
+Flowbite + Tailwind CSS – Stylish and responsive components
+
+Client-Side Routing – Smooth navigation using React Router
+
+Axios – For HTTP requests to the backend
+
+JWT Authentication – Secure login system
+
+Project Structure src/ ├── components/ ├── pages/ ├── services/ ├── store/ ├── Validations/ ├── App.tsx ├── main.tsx
+
+git clone https://github.com/NoaErez/React.Proj
+
+does not include node_modules folder
+
+npm install npm run dev
+
+Created by Noa Erez
